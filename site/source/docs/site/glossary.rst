@@ -1,9 +1,9 @@
-========
-Glossary
-========
+=========
+Glossário
+=========
 
-General
-=======
+Geral
+=====
 
 .. glossary::
 	:sorted:
@@ -98,8 +98,8 @@ Emscripten tools and dependencies
 		.. note:: Sometimes the output of the this tool will crash or fail. This tool is intended for developers fixing bugs in Emscripten. 
 		
 		
-SDK Terms
-=========
+SDK - Termos
+============
 
 The following terms are used when referring to the SDK and :ref:`emsdk`:
 
