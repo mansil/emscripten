@@ -1,30 +1,30 @@
 .. _documentation-home:
 
 ========================
-Emscripten Documentation
+Emscripten - Documentação
 ========================
 
 This comprehensive documentation set contains everything you need to know to use Emscripten.
 
-**Getting started:**
+**Iniciação:**
 
 - :ref:`introducting-emscripten-index` explains what Emscripten does, why it is needed, its limitations and its licensing. It will help you understand whether Emscripten is the right tool for you.
 - :ref:`getting-started-index` walks you through downloading, installing and using the Emscripten SDK. 
 
-**Emscripten Fundamentals:**
+**Emscripten - Básico:**
 
 - :ref:`integrating-porting-index` illustrates the main differences between the native and Emscripten runtime environments, and explains the changes you need to make to prepare your C/C++ code for the Web. 
 - :ref:`Optimizing-Code` shows how to optimise your code for size and performance.
 - :ref:`Optimizing-WebGL` gives tips for how to maximize WebGL rendering performance for your page.
 - :ref:`compiling-and-running-projects-index` demonstrates how to integrate Emscripten into your existing project build system.
 
-**Contributing:**
+**Contribuição:**
 
 - :ref:`contributing-to-emscripten-index` explains how you can contribute to the project.
 - :ref:`installing-from-source` explains how to build Emscripten from sources on Github (this is useful for contributors).
 - :ref:`about-this-site` describes the documentation tools and writing conventions used to create this site.
 
-**Reference:**
+**Referência:**
 
 - :ref:`api-reference-index` is a reference for the Emscripten toolchain.
 - :ref:`tools-reference` is a reference for the Emscripten integration APIs.
