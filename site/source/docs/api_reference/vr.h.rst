@@ -21,11 +21,11 @@ The vr test code demonstrates how to use this API:
 
 .. _functions-vr-api:
 
-Functions
----------
+Funções
+-------
 
-Initialization
-==============
+Inicialização
+=============
 
 .. c:function:: int emscripten_vr_init(em_vr_arg_callback_func callback, void* userData)
 
@@ -59,8 +59,8 @@ Initialization
 	:returns: `1` on success.
 	:rtype: int
 
-API Queries
-===========
+API - Consultas
+===============
 
 All of the following functions require :c:func:`emscripten_vr_init` to have been
 called but do not require VR displays and can therefore be called before the return
@@ -80,7 +80,7 @@ value of :c:func:`emscripten_vr_ready` is `true`.
 	:returns: major version of WebVR, or `-1` if not supported or API not initialized.
 	:rtype: int
 
-Display Functions
+Funções de Exibir
 =================
 
 All of the following functions require :c:func:`emscripten_vr_init` to have been
@@ -248,7 +248,7 @@ Defines
 
 .. _types-vr-api:
 
-Types
+Tipos
 -----
 
 .. c:type:: VRDisplayCapabilities
