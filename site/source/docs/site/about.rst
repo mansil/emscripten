@@ -1,8 +1,8 @@
 .. _about-this-site:
 
-===============
-About this site
-===============
+=================
+Sobre este "site"
+=================
 
 The site is built using `Sphinx <http://sphinx-doc.org/latest/index.html>`_ (1.2.2), the open source tool used to create the official Python documentation and many other sites. This is a very mature and stable tool, and was selected for, among other reasons, its support for defining API items and linking to them from code. 
 
@@ -10,8 +10,8 @@ The site uses a custom theme, which is based on the :ref:`read-the-docs-theme`.
 
 .. _about-this-site-search:
 
-Searching the site
-==================
+Pesquisar no "site"
+===================
 
 Searching returns topics that contain **all** the specified keywords. 
 
@@ -19,14 +19,14 @@ Searching returns topics that contain **all** the specified keywords.
 
 .. note:: Searches that include characters like "-" and "+" will not work. There is no support for logical operators.
 
-Reporting bugs
-==============
+Comunicar erros (bugs)
+======================
 
 Please :ref:`report documentation bugs <site-and-documentation-bug-reports>` as you would any other Emscripten bug. Help :ref:`fix them <writing-and-updating-articles>` by updating existing documents or by creating new ones.
 
 .. _about-this-site-contributing:
 
-Contributing to the site
+Contribuir para o "site"
 ========================
 
 :ref:`Contributions <contributing>` to this site (and indeed any part of Emscripten) are welcome! 
@@ -36,8 +36,8 @@ Check out the rest of this article for instructions on how to :ref:`build the si
 
 .. _building-the-site:
 
-Building the site
-=================
+Criar o "site"
+==============
 
 The site sources are stored on Github `here <https://github.com/kripken/emscripten/tree/incoming/site>`_. Edits and additions should be submitted to this branch in the same way as any other change to the tool.
 
@@ -45,8 +45,8 @@ The site is published to the **kripken/emscripten-site** *gh-pages* branch (Gith
 
 .. note:: Remember to update the :ref:`about-build-versions` for *public* builds.
 
-Installing Sphinx
------------------
+Instalação do Sphinx
+--------------------
 
 Notes for installing Sphinx are provided `here <http://sphinx-doc.org/install.html>`_. 
 
@@ -125,8 +125,8 @@ Site content is written using :term:`reStructured text`. We recommend you read t
 
 
 
-Style guide
------------
+Guai de estilo
+--------------
 
 This section has a few very brief recommendations to help authors use common style. 
 
@@ -199,8 +199,8 @@ Different punctuation characters are used to specify nested sections. Although t
 	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	
-Working in markdown
--------------------
+Trabalhar na marcação
+---------------------
 	
 New articles may be authored and discussed on the `wiki <https://github.com/kripken/emscripten/wiki>`_ using Markdown syntax before being included in the documentation set. The easiest way to convert these to restructured text is to use a tool like `Pandoc <http://johnmacfarlane.net/pandoc/try/?text=&from=markdown_github&to=rst>`_. 
 
@@ -236,7 +236,7 @@ The main changes to the original theme are listed below.
 	- Centred theme. Made sidebar reach bottom of page using absolute positioning.
 
 
-Site license 
-============
+Licença do "site"
+=================
 
 The site is licensed under the same :ref:`emscripten-license` as the rest of Emscripten. Contributors to the site should add themselves to :ref:`emscripten-authors`.
