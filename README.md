@@ -3,27 +3,26 @@
 [![Build Status](https://travis-ci.org/kripken/emscripten.svg?branch=incoming)](https://travis-ci.org/kripken/emscripten)
 [![CircleCI](https://circleci.com/gh/kripken/emscripten.svg?style=svg)](https://circleci.com/gh/kripken/emscripten)
 
-Emscripten is an [LLVM](https://en.wikipedia.org/wiki/LLVM)-to-JavaScript compiler. It takes LLVM bitcode - which can be generated
-from C/C++, using `llvm-gcc` (DragonEgg) or `clang`, or any other language that can be
-converted into LLVM - and compiles that into JavaScript, which can be run on the web (or
-anywhere else JavaScript can run).
+Emscripten é um compilador de [LLVM](https://pt.wikipedia.org/wiki/Low_Level_Virtual_Machine) para JavaScript. Este utiliza o "bitcode" do LLVM - que pode ser gerado
+a partir de C/C++, utilizando `llvm-gcc` (DragonEgg) ou `clang`, ou qualquer outra linguagem que pode ser
+convertida para LLVM - e compila-a para JavaScript, que pode ser executada na Web (ou
+onde quer que o JavaScript seja executado).
 
-Links to **demos**, **tutorial**, **FAQ**, etc: <https://github.com/kripken/emscripten/wiki>
+Hiperligações para **demonstrações**, **tutorial**, **PERGUNTAS MAIS FREQUENTES**, etc...: <https://github.com/kripken/emscripten/wiki>
 
-Main project page: <http://emscripten.org>
+Página do projeto principal: <http://emscripten.org>
 
-License
+Licença
 -------
 
-Emscripten is available under 2 licenses, the MIT license and the
-University of Illinois/NCSA Open Source License.
+Emscripten está disponível sob 2 licenças, a licença MIT e a Licença de Còdigo Aberto da University of Illinois/NCSA.
 
-Both are permissive open source licenses, with little if any
-practical difference between them.
+Ambas são licenças permissivas de código aberto, com pouca ou
+nenhuma diferença prática entre elas.
 
-The reason for offering both is that (1) the MIT license is
-well-known, while (2) the University of Illinois/NCSA Open Source
-License allows Emscripten's code to be integrated upstream into
-LLVM, which uses that license, should the opportunity arise.
+A razão para oferecer ambas, é que (1) a licença MIT é bem conhecida,
+enquanto que (2) a Licença de Código Aberto da University of Illinois/NCSA
+permite que o código Emscripten seja integrado na fonte do
+LLVM, que utiliza essa licença, caso surja a oportunidade.
 
-See `LICENSE` for the full content of the licenses.
+Consulte `LICENÇA` para o conteúdo completo das licenças.
